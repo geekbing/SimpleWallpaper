@@ -26,7 +26,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         return true
     }
-    
+
     // 配置全局样式
     func setupGlobalStyle()
     {
@@ -49,7 +49,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     
-    
     // 配置根控制器
     func setupRootViewController()
     {
@@ -61,9 +60,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
         else
         {
-            window?.rootViewController = Main()
+            let vc = Main()
+            window?.rootViewController = vc
         }
-        
         
         window?.makeKeyAndVisible()
     }
@@ -89,7 +88,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
-
 }
 

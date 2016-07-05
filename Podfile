@@ -13,4 +13,5 @@ pod 'ChameleonFramework/Swift'
 pod 'SDWebImage'
 pod 'SVProgressHUD'
 pod 'Material'
+pod 'MJRefresh'
 end

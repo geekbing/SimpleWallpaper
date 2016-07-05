@@ -18,7 +18,7 @@ class ImageCell: UITableViewCell
         
         // 初始化图片
         self.imgView = UIImageView(frame: CGRect(x: 0, y: 0, width: screenWidth, height: 200))
-        self.imgView?.contentMode = .ScaleAspectFit
+        self.imgView?.contentMode = .ScaleAspectFill
         self.contentView.addSubview(self.imgView!)
     }
     

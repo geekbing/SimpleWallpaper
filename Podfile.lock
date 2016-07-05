@@ -5,6 +5,7 @@ PODS:
   - ChameleonFramework/Swift (2.1.0):
     - ChameleonFramework/Default
   - Material (1.42.7)
+  - MJRefresh (3.1.9)
   - SDWebImage (3.8.1):
     - SDWebImage/Core (= 3.8.1)
   - SDWebImage/Core (3.8.1)
@@ -16,6 +17,7 @@ DEPENDENCIES:
   - AVOSCloud
   - ChameleonFramework/Swift
   - Material
+  - MJRefresh
   - SDWebImage
   - SnapKit
   - SVProgressHUD
@@ -25,10 +27,11 @@ SPEC CHECKSUMS:
   AVOSCloud: 1fe170768bee7e05bc3ea86e38d5bddb105cb957
   ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
   Material: 2d46a44719b1f19e52956518af8aea54ac714963
+  MJRefresh: c5f1f1653e5a1b932c90f78074f2bc86f3f9bd5e
   SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
   SnapKit: bbad04cb016c7cead63965f16b00c09318d271ee
   SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
 
-PODFILE CHECKSUM: c8a1e68aa241a4956f668e84d0f3a885a9f48289
+PODFILE CHECKSUM: 0b2be32eca25f9308dbf69f84bf70beb914631b1
 
 COCOAPODS: 1.0.1
