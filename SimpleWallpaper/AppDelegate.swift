@@ -13,12 +13,61 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
-    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool
+    {
+        // 配置全局样式
+        setupGlobalStyle()
+        // 配置全局数据
+        setupGlobalData()
+        // 配置Leancloud
+        setupLeancloud()
+        // 配置根控制器
+        setupRootViewController()
+        
         return true
     }
-
+    
+    // 配置全局样式
+    func setupGlobalStyle()
+    {
+        
+    }
+    
+    // 配置全局数据
+    func setupGlobalData()
+    {
+    }
+    
+    // 配置Leancloud
+    func setupLeancloud()
+    {
+        let AppID = "EDr5AU1FWyKkBjFwpjvJCCj7-gzGzoHsz"
+        let AppKey = "b285rWMKzK20119g9f1OJAIl"
+        // let MasterKey = "Al8SFrTlirl3ghM2BTT8Fh2Q"
+        
+        AVOSCloud.setApplicationId(AppID, clientKey: AppKey)
+    }
+    
+    
+    
+    // 配置根控制器
+    func setupRootViewController()
+    {
+        window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        
+        if AVUser.currentUser() == nil
+        {
+            window?.rootViewController = Login()
+        }
+        else
+        {
+            window?.rootViewController = Main()
+        }
+        
+        
+        window?.makeKeyAndVisible()
+    }
+    
     func applicationWillResignActive(application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.

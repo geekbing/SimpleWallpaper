@@ -7,21 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		373F44131D2AAFC0007D2C11 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373F44121D2AAFC0007D2C11 /* Login.swift */; };
+		373F44151D2ABD17007D2C11 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373F44141D2ABD17007D2C11 /* Register.swift */; };
+		373F44191D2B404E007D2C11 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 373F44181D2B404E007D2C11 /* UIImage+ImageEffects.m */; };
 		37EA7CDD1D2A211C0012B478 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EA7CDC1D2A211C0012B478 /* AppDelegate.swift */; };
-		37EA7CDF1D2A211C0012B478 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EA7CDE1D2A211C0012B478 /* ViewController.swift */; };
-		37EA7CE21D2A211C0012B478 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37EA7CE01D2A211C0012B478 /* Main.storyboard */; };
 		37EA7CE41D2A211C0012B478 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37EA7CE31D2A211C0012B478 /* Assets.xcassets */; };
 		37EA7CE71D2A211C0012B478 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37EA7CE51D2A211C0012B478 /* LaunchScreen.storyboard */; };
+		37EA7CEF1D2A21330012B478 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EA7CEE1D2A21330012B478 /* Main.swift */; };
+		37EA7CF21D2A22A60012B478 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EA7CF11D2A22A60012B478 /* API.swift */; };
+		37EA7CF41D2A23FC0012B478 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EA7CF31D2A23FC0012B478 /* Common.swift */; };
+		37EA7CF61D2A25330012B478 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EA7CF51D2A25330012B478 /* ImageCell.swift */; };
+		37FC7FBB1D2AAC8B00358662 /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37FC7FBA1D2AAC8B00358662 /* test.jpg */; };
+		7A6B5DEF13F43106FD5ABBD9 /* Pods_SimpleWallpaper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C59ACD307CD62896574B349 /* Pods_SimpleWallpaper.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		373F44121D2AAFC0007D2C11 /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		373F44141D2ABD17007D2C11 /* Register.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		373F44171D2B404E007D2C11 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		373F44181D2B404E007D2C11 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 		37EA7CD91D2A211C0012B478 /* SimpleWallpaper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleWallpaper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37EA7CDC1D2A211C0012B478 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		37EA7CDE1D2A211C0012B478 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		37EA7CE11D2A211C0012B478 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		37EA7CE31D2A211C0012B478 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37EA7CE61D2A211C0012B478 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37EA7CE81D2A211C0012B478 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37EA7CEE1D2A21330012B478 /* Main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		37EA7CF11D2A22A60012B478 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		37EA7CF31D2A23FC0012B478 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		37EA7CF51D2A25330012B478 /* ImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		37EA7D2A1D2A27AD0012B478 /* bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bridge.h; sourceTree = "<group>"; };
+		37FC7FBA1D2AAC8B00358662 /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
+		5F0D492FF9F0FDD7EF8FC248 /* Pods-SimpleWallpaper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleWallpaper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleWallpaper/Pods-SimpleWallpaper.debug.xcconfig"; sourceTree = "<group>"; };
+		6C59ACD307CD62896574B349 /* Pods_SimpleWallpaper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleWallpaper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E840E5BD748D95AC0976270A /* Pods-SimpleWallpaper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleWallpaper.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleWallpaper/Pods-SimpleWallpaper.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A6B5DEF13F43106FD5ABBD9 /* Pods_SimpleWallpaper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		373F44111D2AAFB6007D2C11 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				373F44121D2AAFC0007D2C11 /* Login.swift */,
+				373F44141D2ABD17007D2C11 /* Register.swift */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+		373F44161D2B404E007D2C11 /* UIImage+ImageEffects */ = {
+			isa = PBXGroup;
+			children = (
+				373F44171D2B404E007D2C11 /* UIImage+ImageEffects.h */,
+				373F44181D2B404E007D2C11 /* UIImage+ImageEffects.m */,
+			);
+			path = "UIImage+ImageEffects";
+			sourceTree = "<group>";
+		};
 		37EA7CD01D2A211C0012B478 = {
 			isa = PBXGroup;
 			children = (
 				37EA7CDB1D2A211C0012B478 /* SimpleWallpaper */,
 				37EA7CDA1D2A211C0012B478 /* Products */,
+				9F91533236391C46800B4B6D /* Pods */,
+				48ABA9FB276150F51E1E464B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +93,61 @@
 		37EA7CDB1D2A211C0012B478 /* SimpleWallpaper */ = {
 			isa = PBXGroup;
 			children = (
+				373F44111D2AAFB6007D2C11 /* User */,
+				37EA7CF31D2A23FC0012B478 /* Common.swift */,
+				37EA7CF11D2A22A60012B478 /* API.swift */,
+				37FC7FBC1D2AAD1200358662 /* Main */,
+				37EA7CF71D2A277D0012B478 /* Third */,
+				37EA7CF01D2A21520012B478 /* Support */,
+			);
+			path = SimpleWallpaper;
+			sourceTree = "<group>";
+		};
+		37EA7CF01D2A21520012B478 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				37FC7FBA1D2AAC8B00358662 /* test.jpg */,
+				37EA7D2A1D2A27AD0012B478 /* bridge.h */,
 				37EA7CDC1D2A211C0012B478 /* AppDelegate.swift */,
-				37EA7CDE1D2A211C0012B478 /* ViewController.swift */,
-				37EA7CE01D2A211C0012B478 /* Main.storyboard */,
 				37EA7CE31D2A211C0012B478 /* Assets.xcassets */,
 				37EA7CE51D2A211C0012B478 /* LaunchScreen.storyboard */,
 				37EA7CE81D2A211C0012B478 /* Info.plist */,
 			);
-			path = SimpleWallpaper;
+			name = Support;
+			sourceTree = "<group>";
+		};
+		37EA7CF71D2A277D0012B478 /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				373F44161D2B404E007D2C11 /* UIImage+ImageEffects */,
+			);
+			name = Third;
+			sourceTree = "<group>";
+		};
+		37FC7FBC1D2AAD1200358662 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				37EA7CF51D2A25330012B478 /* ImageCell.swift */,
+				37EA7CEE1D2A21330012B478 /* Main.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		48ABA9FB276150F51E1E464B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C59ACD307CD62896574B349 /* Pods_SimpleWallpaper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F91533236391C46800B4B6D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F0D492FF9F0FDD7EF8FC248 /* Pods-SimpleWallpaper.debug.xcconfig */,
+				E840E5BD748D95AC0976270A /* Pods-SimpleWallpaper.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +157,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 37EA7CEB1D2A211C0012B478 /* Build configuration list for PBXNativeTarget "SimpleWallpaper" */;
 			buildPhases = (
+				CBB8C067B1660D8DE8F53100 /* [CP] Check Pods Manifest.lock */,
 				37EA7CD51D2A211C0012B478 /* Sources */,
 				37EA7CD61D2A211C0012B478 /* Frameworks */,
 				37EA7CD71D2A211C0012B478 /* Resources */,
+				1254F976A41571DD4B6A16A1 /* [CP] Embed Pods Frameworks */,
+				DEB714BBB57B1F6853243CF6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,35 +211,81 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37FC7FBB1D2AAC8B00358662 /* test.jpg in Resources */,
 				37EA7CE71D2A211C0012B478 /* LaunchScreen.storyboard in Resources */,
 				37EA7CE41D2A211C0012B478 /* Assets.xcassets in Resources */,
-				37EA7CE21D2A211C0012B478 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1254F976A41571DD4B6A16A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleWallpaper/Pods-SimpleWallpaper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBB8C067B1660D8DE8F53100 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DEB714BBB57B1F6853243CF6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleWallpaper/Pods-SimpleWallpaper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		37EA7CD51D2A211C0012B478 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37EA7CDF1D2A211C0012B478 /* ViewController.swift in Sources */,
+				373F44191D2B404E007D2C11 /* UIImage+ImageEffects.m in Sources */,
+				37EA7CF41D2A23FC0012B478 /* Common.swift in Sources */,
+				37EA7CEF1D2A21330012B478 /* Main.swift in Sources */,
+				37EA7CF21D2A22A60012B478 /* API.swift in Sources */,
+				373F44131D2AAFC0007D2C11 /* Login.swift in Sources */,
+				373F44151D2ABD17007D2C11 /* Register.swift in Sources */,
 				37EA7CDD1D2A211C0012B478 /* AppDelegate.swift in Sources */,
+				37EA7CF61D2A25330012B478 /* ImageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		37EA7CE01D2A211C0012B478 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				37EA7CE11D2A211C0012B478 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		37EA7CE51D2A211C0012B478 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -247,23 +382,27 @@
 		};
 		37EA7CEC1D2A211C0012B478 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F0D492FF9F0FDD7EF8FC248 /* Pods-SimpleWallpaper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SimpleWallpaper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.geekbing.SimpleWallpaper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = SimpleWallpaper/bridge.h;
 			};
 			name = Debug;
 		};
 		37EA7CED1D2A211C0012B478 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E840E5BD748D95AC0976270A /* Pods-SimpleWallpaper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SimpleWallpaper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.geekbing.SimpleWallpaper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = SimpleWallpaper/bridge.h;
 			};
 			name = Release;
 		};
@@ -286,6 +425,7 @@
 				37EA7CED1D2A211C0012B478 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
